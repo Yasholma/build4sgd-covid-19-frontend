@@ -2,7 +2,7 @@
   width: 100%;
   height: 50vh;
   background: linear-gradient(to right, rgba(#000, 0.4), rgba(#000, 0.4)),
-    url("../images/img-4.jpg") no-repeat;
+    url("../images/img-4.webp") no-repeat;
   background-size: cover;
   background-position: center center;
   &__heading {
@@ -59,19 +59,19 @@
 
     &:nth-child(1) {
       background: linear-gradient(to right, rgba(#000, 0.5), rgba(#000, 0.6)),
-        url("../images/img-1.jpg") no-repeat;
+        url("../images/img-1.webp") no-repeat;
       background-size: cover;
     }
 
     &:nth-child(2) {
       background: linear-gradient(to right, rgba(#000, 0.5), rgba(#000, 0.7)),
-        url("../images/img-2.jpg") no-repeat;
+        url("../images/img-2.webp") no-repeat;
       background-size: cover;
     }
 
     &:nth-child(3) {
       background: linear-gradient(to right, rgba(#000, 0.5), rgba(#000, 0.7)),
-        url("../images/img-3.jpg") no-repeat;
+        url("../images/img-3.webp") no-repeat;
       background-size: cover;
     }
 
@@ -103,7 +103,7 @@
       font-size: 1.5rem;
       margin-bottom: 0.5rem;
       span {
-        color: $secondary-color;
+        color: $primary-color;
       }
     }
   }
@@ -111,7 +111,7 @@
   &__content {
     width: 100%;
     height: 30vh;
-    background: url("../images/background.jpg") no-repeat;
+    background: url("../images/background.webp") no-repeat;
     background-size: cover;
     position: relative;
 
