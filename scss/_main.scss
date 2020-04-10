@@ -102,9 +102,9 @@
       text-align: center;
       font-size: 1.5rem;
       margin-bottom: 0.5rem;
-      span {
-        color: $primary-color;
-      }
+      // span {
+      //   color: $primary-color;
+      // }
     }
   }
 
@@ -150,8 +150,8 @@ footer {
   .attribution a {
     color: $white;
     display: inline;
-    span {
-      color: $secondary-color;
-    }
+    // span {
+    //   color: $secondary-color;
+    // }
   }
 }
