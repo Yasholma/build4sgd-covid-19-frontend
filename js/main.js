@@ -1,21 +1,21 @@
 var menuBtn = document.querySelector(".menu-btn");
 var hamburger = document.querySelector(".menu-btn__burger");
 var mobileNav = document.querySelector(".nav");
-var navLinks = document.querySelectorAll(".menu-nav__link");
+// var navLinks = document.querySelectorAll(".menu-nav__link");
 var insertModalBtn = document.querySelector(".nav__btns > a");
 var insertDataModal = document.querySelector(".modal");
 var modalCloseBtn = document.querySelector(".modal span.close");
 var openModalBtn = document.querySelectorAll(".openModal");
-var estimateBtn = document.getElementById("estimate-btn");
-var dataForm = document.querySelector("#data-form");
+// var estimateBtn = document.getElementById("estimate-btn");
+// var dataForm = document.querySelector("#data-form");
 
 
 menuBtn.addEventListener("click", toggleMenu);
-navLinks.forEach(link => link.addEventListener("click", closeMenu));
+// navLinks.forEach(link => link.addEventListener("click", closeMenu));
 insertModalBtn.addEventListener("click", openInsertModal);
 openModalBtn.forEach(btn => btn.addEventListener("click", openModal));
 modalCloseBtn.addEventListener("click", closeModal);
-estimateBtn.addEventListener("click", estimate)
+// estimateBtn.addEventListener("click", estimate)
 
 
 var validateFields = (...fields) => fields.every(field => field.value.trim() !== "");
