@@ -66,6 +66,7 @@
 
           &:hover {
             background: transparent;
+            border: 1px solid $primary-color;
             color: $primary-color;
           }
         }
@@ -81,13 +82,6 @@
   .modal {
     &__content {
       width: 50%;
-    }
-
-    &__header {
-      span.close {
-        color: lighten($color: $secondary-color, $amount: 20%);
-        background: darken($color: $primary-color, $amount: 30%);
-      }
     }
   }
 
@@ -160,7 +154,7 @@
   //   Modal Section
   .modal {
     &__content {
-      width: 40%;
+      width: 30%;
     }
   }
 
